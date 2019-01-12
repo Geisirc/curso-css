@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 30/03/2018, 17:58:59
-    Author     : Gerc
+    Author     : geisianeribeiro8@gmail.com
 */
 *{
     margin: 0;
@@ -15,6 +15,11 @@ and open the template in the editor.
 body{
     background: #f1f1f1;
     margin: 5px;
+}
+
+.container{
+	
+
 }
 
 #nav{
@@ -36,31 +41,4 @@ body{
     border-left: 4px solid #444;
     text-decoration: none;
     box-shadow: 2px 2px 2px #ccc;
-    color: #069;
-}
-
-#nav li a:hover{
-    border-left: 4px solid #069;
-    background: #f8f8f8;
-}
-
-#nav li ul{
-    display: none;
-}    
-
-#nav li:hover ul{
-    display: block;
-}
-
-#nav li:hover ul li{
-    background: #444;
-}
-
-#nav li:hover ul li a{
-    color: #ccc;
-}
-
-#nav li:hover ul li a:hover{
-    background: #222;
-    border-left: 4px solid #ccc;
 }
